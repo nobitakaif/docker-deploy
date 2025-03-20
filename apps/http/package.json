@@ -1,0 +1,17 @@
+{
+  "name": "http",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "store":"*"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "epxress": "^0.0.1-security",
+    "express": "^4.21.2"
+  }
+}
