@@ -19,6 +19,7 @@ app.post("/user",async function(req,res){
             id:response.id
         })
    }catch(e){
+        console.log(e)
         res.send("something happen wrong with db")
    }
 
