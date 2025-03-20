@@ -5,7 +5,7 @@ Bun.serve({
         if(server.upgrade(req)){
             return 
         }
-        return new Resposne("please upgrade your server",{
+        return new Response("please upgrade your server",{
             status:500
         })
     },
